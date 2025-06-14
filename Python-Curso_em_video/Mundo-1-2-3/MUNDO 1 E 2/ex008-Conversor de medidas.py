@@ -1,0 +1,2 @@
+med =float(input('Uma distancia em metros: '))
+print('Uma medida de {} corresponde a\n{}km\n{}hm\n{}dam\n{:.0f}dm\n{:.0f}cm\n{:.0f}mm'.format(med, med/1000, med/100, med/10, med*10, med*100, med*1000))
