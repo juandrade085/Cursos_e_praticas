@@ -1,3 +1,6 @@
+"""Escreva um programa que peça ao usuário um número e exiba
+todos os números pares de 0 até esse número usando o loop while."""
+
 número_par = 0
 número_inicial = int(input('Digite um número: '))
 while número_par <= número_inicial:
