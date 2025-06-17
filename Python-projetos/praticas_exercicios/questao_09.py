@@ -1,4 +1,3 @@
-
 """Escreva um programa que exiba o seguinte padrão usando while:
 *
 **

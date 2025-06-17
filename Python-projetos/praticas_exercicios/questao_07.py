@@ -8,8 +8,7 @@ produto = 1
 
 print(f"Calculando {numero_fatorial}! = ", end='')
 while inteiros_menores > 0 :
-    print(f"{inteiros_menores}", end='')
-    print(' x ' if inteiros_menores > 1 else ' = ', end='')
+    print(f"{inteiros_menores}", end=' x ' if inteiros_menores > 1 else ' = ')
     produto *= inteiros_menores
     inteiros_menores-= 1
 print(f'{produto}.')
