@@ -14,9 +14,10 @@ print(f"{'=-' * 20}")
 for linha in range (0, 3):
     for coluna in range (0, 3):
         print(f'[{matriz[linha][coluna]:^5}]', end='')
+
 # A) A soma de todos os valores pares digitados.
-        if matriz[linha][coluna] % 2 == 0:
-            soma_pares += matriz[linha][coluna]
+    if matriz[linha][coluna] % 2 == 0:
+        soma_pares += matriz[linha][coluna]
     print()
 print(f"A soma dos valores pares é {soma_pares}")
 
