@@ -5,7 +5,7 @@ usando while."""
 numero = int(input("Digite um número: "))
 print(f"{numero} reduzido a um dígito é ", end='')
 while numero >= 10:
-    soma = 0
+soma = 0
     for digito in str(numero):
         soma += int(digito)
     numero = soma

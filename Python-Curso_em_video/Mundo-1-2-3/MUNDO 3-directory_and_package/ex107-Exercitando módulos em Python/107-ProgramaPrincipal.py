@@ -1,6 +1,6 @@
-"""Crie um módulo chamado moeda.py que tenha as funções
+"""Crie um módulo chamado moeda.py que tenha as funçoes_questoes
 incorporadas aumentar(), diminuir(), dobro() e metade(). Faça também um
-programa que importe esse módulo e use algumas dessas funções."""
+programa que importe esse módulo e use algumas dessas funçoes_questoes."""
 
 import moeda
 
