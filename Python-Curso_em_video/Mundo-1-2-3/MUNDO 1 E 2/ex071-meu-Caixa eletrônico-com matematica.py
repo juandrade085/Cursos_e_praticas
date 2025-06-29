@@ -20,9 +20,9 @@ while True:
           f'Total de {vinte} cédulas de R$ 20,00\n'
           f'Total de {dez} cédulas de R$ 10,00\n'
           f'Total de {um} cédulas de R$ 1,00\n')
-    continuar = ' '
-    while continuar in 'SN' :
-        continuar = str(input('Quer sacar mais algum valor? [S/N] ')).upper().strip()[0]
-    if continuar in 'Nn' :
+    continuar = str(input('Quer sacar mais algum valor? [S/N] ')).upper().strip()[0]
+    if continuar in 'S' :
+        continue
+    else:
         break
 print(f'{'-='*20}\n{'Volte sempre ao BANCO CEV! Tenha um Bom dia!'}')
