@@ -1,3 +1,4 @@
+#⭐ FAVORITO por ter sido de um domingo de sol ☀️
 """Escreva um programa que peça ao usuário para digitar números inteiros positivos um por vez, usando um loop while.
 O programa deve continuar pedindo números até que o usuário digite um número maior que 100.
 Durante a entrada, o programa deve imprimir apenas os números que são múltiplos de 4.
