@@ -1,4 +1,5 @@
 from time import sleep
+from qrcode.image.pil import PilImage
 
 def decoração(tamanho, item):
     return  tamanho * item
