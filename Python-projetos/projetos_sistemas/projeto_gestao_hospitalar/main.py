@@ -1,17 +1,16 @@
-from modulos_uteis.funcoes_cadastro import cadastro as cadastro_paciente
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
+from modulos_uteis.funcoes_cadastro import cadastro as cad_paciente
+from modulos_uteis.funcoes_decoracao import decoracao   as dec
 
-
-"""def decoração(tamanho, item):
-    return tamanho * item
-
-
-print(f"{decoração(15, '-=')}")
+# Exibe o cabeçalho decorado
+print(dec(15, '-='))
 print(f"{'CLÍNICA VIDA+':^30}")
-print(f"{decoração(15, '-=')}")
-pacientes = cadastro_paciente"""
+print(dec(15, '-='))
 
-pacientes = cadastro_paciente()
-print(f"Paciente: {pacientes['nome']} {pacientes['sobrenome']}, {pacientes['idade']} anos e {pacientes['dias_com_idade_nova']} — cadastrado com sucesso!")
+# Realiza o cadastro do paciente
+paciente = cad_paciente()
+
+# Exibe os dados do paciente cadastrado
+print(
+    f"Paciente: {paciente['nome']} {paciente['sobrenome']}, "
+    f"{paciente['idade']} anos e {paciente['dias_com_idade_nova']} dias — cadastrado com sucesso!"
+)
