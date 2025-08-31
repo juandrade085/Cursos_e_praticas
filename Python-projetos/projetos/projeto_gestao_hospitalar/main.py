@@ -1,5 +1,8 @@
-from modulos_uteis.funcoes_cadastro import cadastro as cad_paciente
-from modulos_uteis.funcoes_decoracao import decoracao   as dec
+# SISTEMA
+
+
+from lib.modulos_uteis import cadastro as cad_paciente
+from lib.modulos_uteis import decoracao as dec
 
 # Exibe o cabeçalho decorado
 print(dec(15, '-='))

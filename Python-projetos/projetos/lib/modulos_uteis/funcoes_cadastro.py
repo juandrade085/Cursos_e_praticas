@@ -1,3 +1,5 @@
+# FUNÇÕES DE CADASTRO
+
 def cadastro():
     nome = input("Nome do Paciente: ")
     sobrenome = input("Sobrenome do Paciente: ")
